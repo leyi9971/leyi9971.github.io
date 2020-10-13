@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>get up get up!!!!!!!!!write  a blog!</title>
+  
+  <subtitle>GOODMORNING</subtitle>
+  <link href="http://leyi9971.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://leyi9971.github.io/"/>
+  <updated>2020-10-13T11:47:24.767Z</updated>
+  <id>http://leyi9971.github.io/</id>
+  
+  <author>
+    <name>美女</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>12</title>
+    <link href="http://leyi9971.github.io/2020/10/13/12/"/>
+    <id>http://leyi9971.github.io/2020/10/13/12/</id>
+    <published>2020-10-13T11:46:19.000Z</published>
+    <updated>2020-10-13T11:47:24.767Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h1><p>学了一点点点点markdown语法<br>可是<strong>typora真好用</strong> 可以手动设置标题和表格。。<br>语法知识沉入海底</p><p><img src="/2020/10/13/12/12.png" alt="12"></p><h1 id="写点吃的"><a href="#写点吃的" class="headerlink" title="写点吃的"></a>写点吃的</h1><h5 id="1-农大水果捞好吃排行榜"><a href="#1-农大水果捞好吃排行榜" class="headerlink" title="1.农大水果捞好吃排行榜"></a>1.农大水果捞好吃排行榜</h5><p>北区水果店&gt;青年餐厅&gt;&gt;&gt;&gt;九堂=八堂————//京元及十一堂待品尝 听说十一堂的橘子是酸的</p><h5 id="2-学校里没有好吃的福鼎肉片！！真的很伤心"><a href="#2-学校里没有好吃的福鼎肉片！！真的很伤心" class="headerlink" title="2.学校里没有好吃的福鼎肉片！！真的很伤心"></a>2.学校里没有好吃的福鼎肉片！！真的很伤心</h5><h5 id="3-九堂的麻辣烫比八堂好吃"><a href="#3-九堂的麻辣烫比八堂好吃" class="headerlink" title="3.九堂的麻辣烫比八堂好吃"></a>3.九堂的麻辣烫比八堂好吃</h5><h5 id="4-九堂的瓦罐比八堂好吃"><a href="#4-九堂的瓦罐比八堂好吃" class="headerlink" title="4.九堂的瓦罐比八堂好吃"></a>4.九堂的瓦罐比八堂好吃</h5><h5 id="5-十三堂的汉堡比八堂好吃"><a href="#5-十三堂的汉堡比八堂好吃" class="headerlink" title="5.十三堂的汉堡比八堂好吃"></a>5.十三堂的汉堡比八堂好吃</h5><h5 id="6-但是八堂的自助餐很便宜"><a href="#6-但是八堂的自助餐很便宜" class="headerlink" title="6.但是八堂的自助餐很便宜"></a>6.<strong>但是</strong>八堂的自助餐很便宜</h5><h5 id="7-今晚想吃青年餐厅的轻食"><a href="#7-今晚想吃青年餐厅的轻食" class="headerlink" title="7.今晚想吃青年餐厅的轻食"></a>7.今晚想吃青年餐厅的轻食</h5><h5 id="8-下次一定好好写博客"><a href="#8-下次一定好好写博客" class="headerlink" title="8.下次一定好好写博客"></a>8.下次一定好好写博客</h5>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;这是我的第一篇博客&quot;&gt;&lt;a href=&quot;#这是我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;这是我的第一篇博客&quot;&gt;&lt;/a&gt;这是我的第一篇博客&lt;/h1&gt;&lt;p&gt;学了一点点点点markdown语法&lt;br&gt;可是&lt;strong&gt;typora真好用&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>11</title>
+    <link href="http://leyi9971.github.io/2020/10/13/11/"/>
+    <id>http://leyi9971.github.io/2020/10/13/11/</id>
+    <published>2020-10-13T09:09:37.000Z</published>
+    <updated>2020-10-13T12:03:08.483Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是我的第二篇博客"><a href="#这是我的第二篇博客" class="headerlink" title="这是我的第二篇博客"></a>这是我的第二篇博客</h1><p>插图片插了一下午，用typora编辑md文件插入图片在个人网站是显示不出来的<br>悦悦大佬告诉我她用记事本插上图了！！<br>哇!!真的可以<br><strong>所以要在记事本里像这样加一行</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![example](title&#x2F;examle.jpg)</span><br></pre></td></tr></table></figure><p>就好了！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;这是我的第二篇博客&quot;&gt;&lt;a href=&quot;#这是我的第二篇博客&quot; class=&quot;headerlink&quot; title=&quot;这是我的第二篇博客&quot;&gt;&lt;/a&gt;这是我的第二篇博客&lt;/h1&gt;&lt;p&gt;插图片插了一下午，用typora编辑md文件插入图片在个人网站是显示不出来的&lt;br&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

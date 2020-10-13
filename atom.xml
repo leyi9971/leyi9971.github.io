@@ -41,9 +41,9 @@
     <link href="http://leyi9971.github.io/2020/10/13/11/"/>
     <id>http://leyi9971.github.io/2020/10/13/11/</id>
     <published>2020-10-13T09:09:37.000Z</published>
-    <updated>2020-10-13T12:03:08.483Z</updated>
+    <updated>2020-10-13T15:52:46.946Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="这是我的第二篇博客"><a href="#这是我的第二篇博客" class="headerlink" title="这是我的第二篇博客"></a>这是我的第二篇博客</h1><p>插图片插了一下午，用typora编辑md文件插入图片在个人网站是显示不出来的<br>悦悦大佬告诉我她用记事本插上图了！！<br>哇!!真的可以<br><strong>所以要在记事本里像这样加一行</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![example](title&#x2F;examle.jpg)</span><br></pre></td></tr></table></figure><p>就好了！！！</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="这是我的第二篇博客"><a href="#这是我的第二篇博客" class="headerlink" title="这是我的第二篇博客"></a>这是我的第二篇博客</h1><p>插图片插了一下午，用typora编辑md文件插入图片在个人网站是显示不出来的<br>悦悦大佬告诉我她用记事本插上图了！！<br>哇!!真的可以<br><strong>所以要在记事本里像这样加一行</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![example](title&#x2F;example.jpg)</span><br></pre></td></tr></table></figure><p>就好了！！！</p>]]></content>
     
     
       

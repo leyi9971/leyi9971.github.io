@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="author" content="美女"><meta name="renderer" content="webkit"><meta name="copyright" content="美女"><meta name="keywords" content="get up get up!!!!!!!!!write  a blog!"><meta name="description" content="ABCD"><meta name="Cache-Control" content="no-cache"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>markdown学习日记 · 我爱刘昊然</title><link rel="stylesheet" href="/css/style.css?v=2018.7.9"><link rel="stylesheet" href="/css/animation.css?v=2018.7.9"><link rel="icon" href="/img/assets/favicon.ico"><link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css?version=1.5.6"><!-- scripts--><script>(function( w ){
+  "use strict";
+  // rel=preload support test
+  if( !w.loadCSS ){
+    w.loadCSS = function(){};
+  }
+  // define on the loadCSS obj
+  var rp = loadCSS.relpreload = {};
+  // rel=preload feature support test
+  // runs once and returns a function for compat purposes
+  rp.support = (function(){
+    var ret;
+    try {
+      ret = w.document.createElement( "link" ).relList.supports( "preload" );
+    } catch (e) {
+      ret = false;
+    }
+    return function(){
+      return ret;
+    };
+  })();
+
+  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
+  // then change that media back to its intended value on load
+  rp.bindMediaToggle = function( link ){
+    // remember existing media attr for ultimate state, or default to 'all'
+    var finalMedia = link.media || "all";
+
+    function enableStylesheet(){
+      link.media = finalMedia;
+    }
+
+    // bind load handlers to enable media
+    if( link.addEventListener ){
+      link.addEventListener( "load", enableStylesheet );
+    } else if( link.attachEvent ){
+      link.attachEvent( "onload", enableStylesheet );
+    }
+
+    // Set rel and non-applicable media type to start an async request
+    // note: timeout allows this to happen async to let rendering continue in IE
+    setTimeout(function(){
+      link.rel = "stylesheet";
+      link.media = "only x";
+    });
+    // also enable media after 3 seconds,
+    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
+    setTimeout( enableStylesheet, 3000 );
+  };
+
+  // loop through link elements in DOM
+  rp.poly = function(){
+    // double check this to prevent external calls from running
+    if( rp.support() ){
+      return;
+    }
+    var links = w.document.getElementsByTagName( "link" );
+    for( var i = 0; i < links.length; i++ ){
+      var link = links[ i ];
+      // qualify links to those with rel=preload and as=style attrs
+      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
+        // prevent rerunning on link
+        link.setAttribute( "data-loadcss", true );
+        // bind listeners to toggle media back
+        rp.bindMediaToggle( link );
+      }
+    }
+  };
+
+  // if unsupported, run the polyfill
+  if( !rp.support() ){
+    // run once at least
+    rp.poly();
+
+    // rerun poly on an interval until onload
+    var run = w.setInterval( rp.poly, 500 );
+    if( w.addEventListener ){
+      w.addEventListener( "load", function(){
+        rp.poly();
+        w.clearInterval( run );
+      } );
+    } else if( w.attachEvent ){
+      w.attachEvent( "onload", function(){
+        rp.poly();
+        w.clearInterval( run );
+      } );
+    }
+  }
+
+
+  // commonjs
+  if( typeof exports !== "undefined" ){
+    exports.loadCSS = loadCSS;
+  }
+  else {
+    w.loadCSS = loadCSS;
+  }
+}( typeof global !== "undefined" ? global : this ) );</script><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script><script src="/js/main.js?v=2018.7.9" defer></script><!-- fancybox--><link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script><!-- busuanzi--><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="get up get up!!!!!!!!!write  a blog!" type="application/atom+xml">
+</head><body><section class="profile-close" id="cxo-profile"><div class="profile-avatar"><i class="fa fa-caret-left"></i><img src="/img/assets/%E5%A4%B4%E5%83%8F2.png"></div><!--.profile-saying
+  i.fa.fa-comment
+  .saying--><div class="cxo-profile-inner"><div class="profile-name">美女</div><div class="profile-signature">国家一级睡觉运动员/互联网资深冲浪选手/魔仙堡废话冠军连任</div><div class="friends"><div>FRIENDS</div><span><a href="//github.com/" target="_black">friendA</a></span><span><a href="//github.com/" target="_black">friendB</a></span><span><a href="//github.com/" target="_black">friendC</a></span></div><div class="read-progress"></div></div></section><header id="cxo-intro" style="height: 70vh;background-image: url(/img/intro/背景3.png);"><nav id="cxo-intro-nav"><section><div class="intro-nav-title"><a href="/">小怡的博客</a></div><div class="intro-nav-label-box"><a href="/">Home</a><a href="/about/">About</a><a href="/archives/">Archives</a><a href="/tags/">Tags</a></div><i class="fa fa-bars intro-nav-menu"><div class="intro-nav-drop"><a href="/">Home</a><a href="/about/">About</a><a href="/archives/">Archives</a><a href="/tags/">Tags</a></div></i><div class="clear"></div></section></nav><h1 class="post-title">markdown学习日记</h1><div class="post-intros"><div class="post-intro-meta"><span class="post-intro-time"><i class="post-intro-calendar fa fa-calendar"></i><span>2020-10-14</span></span></div></div></header><article class="cxo-up" id="cxo-content-outer"><section id="cxo-content-inner"><article class="article-entry" id="post"><p>Markdown是一种轻量级标记语言<br>用纯文本形式同时编写文章格式及内容</p>
+<h1 id="Markdown常用语法："><a href="#Markdown常用语法：" class="headerlink" title="Markdown常用语法："></a>Markdown常用语法：</h1><h3 id="1-斜体"><a href="#1-斜体" class="headerlink" title="1.斜体"></a>1.斜体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*example*</span><br></pre></td></tr></table></figure>
+<h3 id="2-粗体"><a href="#2-粗体" class="headerlink" title="2.粗体"></a>2.粗体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**example**</span><br></pre></td></tr></table></figure>
+<h3 id="3-标题"><a href="#3-标题" class="headerlink" title="3.标题"></a>3.标题</h3><p>一级标题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># example</span><br></pre></td></tr></table></figure>
+<p>二级标题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">## example</span><br></pre></td></tr></table></figure>
+
+<p><strong>以此类推</strong></p>
+<h3 id="4-链接"><a href="#4-链接" class="headerlink" title="4.链接"></a>4.链接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[链接标注](http:&#x2F;&#x2F;example.cn)</span><br></pre></td></tr></table></figure>
+<h3 id="5-图片"><a href="#5-图片" class="headerlink" title="5.图片"></a>5.图片</h3><p>插入网络图片</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](http:&#x2F;&#x2F;图片名.png)</span><br></pre></td></tr></table></figure>
+<p>插入本地图片</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](hexo&#x2F;...&#x2F;source&#x2F;_posts&#x2F;example&#x2F;图片名.png)</span><br></pre></td></tr></table></figure>
+<p><em>注:插入本地图片需在hexo/…/source/_posts下新建与blog文件同名的文件夹(上为example文件夹),存放插入的图片文件.</em></p>
+<h3 id="5-引用"><a href="#5-引用" class="headerlink" title="5.引用"></a>5.引用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; example</span><br></pre></td></tr></table></figure>
+<h3 id="6-分割线"><a href="#6-分割线" class="headerlink" title="6.分割线"></a>6.分割线</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="7-无序列表"><a href="#7-无序列表" class="headerlink" title="7.无序列表"></a>7.无序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*example</span><br></pre></td></tr></table></figure>
+<h3 id="8-有序列表"><a href="#8-有序列表" class="headerlink" title="8.有序列表"></a>8.有序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.example</span><br></pre></td></tr></table></figure>
+<h3 id="9-代码块"><a href="#9-代码块" class="headerlink" title="9.代码块"></a>9.代码块</h3><p><img src="/2020/10/14/markdown%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/blog3.png" alt="blog3"></p>
+</article><!-- lincense--><div class="license-wrapper"><p> <span>Author:  </span><a href="http://leyi9971.github.io">美女</a></p><p> <span>Link:  </span><a href="http://leyi9971.github.io/2020/10/14/markdown%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/">http://leyi9971.github.io/2020/10/14/markdown%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</a></p><p> <span>Copyright:  </span><span>All articles in this blog are licensed under <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/3.0">CC BY-NC-SA 3.0</a> unless stating additionally.</span></p></div><div class="post-paginator"><a class="nextSlogan" href="/2020/10/13/12/" title="12"><span>NextPost ></span><br><span class="nextTitle">12</span></a><div class="clear"></div></div><div id="comment"></div></section></article><footer id="cxo-footer-outer"><div id="cxo-footer-inner"><p class="footer-container"><span>Site by </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span> | theme </span><a target="_blank" rel="noopener" href="https://github.com/Longlongyu/hexo-theme-Cxo"><span>Cxo</span></a></p><i class="fa fa-user"> </i><span id="busuanzi_value_site_uv"></span><span> | </span><i class="fa fa-eye"> </i><span id="busuanzi_value_site_pv"></span></div></footer><!-- catelog--><div class="toc-wrapper" style="top: 70vh;"><div class="toc-catalog"><i class="fa fa-list"> </i><span>CATALOG</span></div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Markdown%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">Markdown常用语法：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%96%9C%E4%BD%93"><span class="toc-number">1.0.1.</span> <span class="toc-text">1.斜体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%B2%97%E4%BD%93"><span class="toc-number">1.0.2.</span> <span class="toc-text">2.粗体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%A0%87%E9%A2%98"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E9%93%BE%E6%8E%A5"><span class="toc-number">1.0.4.</span> <span class="toc-text">4.链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%9B%BE%E7%89%87"><span class="toc-number">1.0.5.</span> <span class="toc-text">5.图片</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%BC%95%E7%94%A8"><span class="toc-number">1.0.6.</span> <span class="toc-text">5.引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E5%88%86%E5%89%B2%E7%BA%BF"><span class="toc-number">1.0.7.</span> <span class="toc-text">6.分割线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">1.0.8.</span> <span class="toc-text">7.无序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">1.0.9.</span> <span class="toc-text">8.有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">1.0.10.</span> <span class="toc-text">9.代码块</span></a></li></ol></li></ol></li></ol></div><!-- top--><i class="fa fa-arrow-up close" id="go-up" aria-hidden="true"></i></body></html>

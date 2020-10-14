@@ -6,7 +6,7 @@
   <link href="http://leyi9971.github.io/atom.xml" rel="self"/>
   
   <link href="http://leyi9971.github.io/"/>
-  <updated>2020-10-13T11:47:24.767Z</updated>
+  <updated>2020-10-14T13:12:30.733Z</updated>
   <id>http://leyi9971.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown学习日记</title>
+    <link href="http://leyi9971.github.io/2020/10/14/markdown%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/"/>
+    <id>http://leyi9971.github.io/2020/10/14/markdown%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</id>
+    <published>2020-10-14T12:21:35.000Z</published>
+    <updated>2020-10-14T13:12:30.733Z</updated>
+    
+    <content type="html"><![CDATA[<p>Markdown是一种轻量级标记语言<br>用纯文本形式同时编写文章格式及内容</p><h1 id="Markdown常用语法："><a href="#Markdown常用语法：" class="headerlink" title="Markdown常用语法："></a>Markdown常用语法：</h1><h3 id="1-斜体"><a href="#1-斜体" class="headerlink" title="1.斜体"></a>1.斜体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*example*</span><br></pre></td></tr></table></figure><h3 id="2-粗体"><a href="#2-粗体" class="headerlink" title="2.粗体"></a>2.粗体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**example**</span><br></pre></td></tr></table></figure><h3 id="3-标题"><a href="#3-标题" class="headerlink" title="3.标题"></a>3.标题</h3><p>一级标题</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># example</span><br></pre></td></tr></table></figure><p>二级标题</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">## example</span><br></pre></td></tr></table></figure><p><strong>以此类推</strong></p><h3 id="4-链接"><a href="#4-链接" class="headerlink" title="4.链接"></a>4.链接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[链接标注](http:&#x2F;&#x2F;example.cn)</span><br></pre></td></tr></table></figure><h3 id="5-图片"><a href="#5-图片" class="headerlink" title="5.图片"></a>5.图片</h3><p>插入网络图片</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](http:&#x2F;&#x2F;图片名.png)</span><br></pre></td></tr></table></figure><p>插入本地图片</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](hexo&#x2F;...&#x2F;source&#x2F;_posts&#x2F;example&#x2F;图片名.png)</span><br></pre></td></tr></table></figure><p><em>注:插入本地图片需在hexo/…/source/_posts下新建与blog文件同名的文件夹(上为example文件夹),存放插入的图片文件.</em></p><h3 id="5-引用"><a href="#5-引用" class="headerlink" title="5.引用"></a>5.引用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; example</span><br></pre></td></tr></table></figure><h3 id="6-分割线"><a href="#6-分割线" class="headerlink" title="6.分割线"></a>6.分割线</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure><h3 id="7-无序列表"><a href="#7-无序列表" class="headerlink" title="7.无序列表"></a>7.无序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*example</span><br></pre></td></tr></table></figure><h3 id="8-有序列表"><a href="#8-有序列表" class="headerlink" title="8.有序列表"></a>8.有序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.example</span><br></pre></td></tr></table></figure><h3 id="9-代码块"><a href="#9-代码块" class="headerlink" title="9.代码块"></a>9.代码块</h3><p><img src="/2020/10/14/markdown%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/blog3.png" alt="blog3"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Markdown是一种轻量级标记语言&lt;br&gt;用纯文本形式同时编写文章格式及内容&lt;/p&gt;
+&lt;h1 id=&quot;Markdown常用语法：&quot;&gt;&lt;a href=&quot;#Markdown常用语法：&quot; class=&quot;headerlink&quot; title=&quot;Markdown常用语法：&quot;&gt;&lt;/a&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>12</title>

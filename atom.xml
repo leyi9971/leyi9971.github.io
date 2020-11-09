@@ -6,7 +6,7 @@
   <link href="http://leyi9971.github.io/atom.xml" rel="self"/>
   
   <link href="http://leyi9971.github.io/"/>
-  <updated>2020-10-19T08:18:33.470Z</updated>
+  <updated>2020-11-09T13:56:51.423Z</updated>
   <id>http://leyi9971.github.io/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>sqli-labs</title>
+    <link href="http://leyi9971.github.io/2020/11/09/sqli-labs/"/>
+    <id>http://leyi9971.github.io/2020/11/09/sqli-labs/</id>
+    <published>2020-11-09T13:26:59.000Z</published>
+    <updated>2020-11-09T13:56:51.423Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题"><a href="#关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题" class="headerlink" title="关于sqli-labs搭建出现mysql_connect()函数未定义报错的问题"></a>关于sqli-labs搭建出现mysql_connect()函数未定义报错的问题</h1><p>进行Setup/reset database for labs操作时出现报错</p><p>报错代码:</p><p><code> Fatal error: Uncaught Error: Call to undefined function mysql_connect() in E:\phpstudy_pro\WWW\sqli-labs-master\sql-connections\setup-db.php:29 Stack trace: #0 &#123;main&#125; thrown in E:\phpstudy_pro\WWW\sqli-labs-master\sql-connections\setup-db.php on line 29</code></p><h3 id="网上查到的一些解决方法"><a href="#网上查到的一些解决方法" class="headerlink" title="网上查到的一些解决方法"></a>网上查到的一些解决方法</h3><p>1.将\sql-connections\setup-db.php文件中的<code>mysql</code>修改为<code>mysqli</code></p><p>尝试：全局修改后出现earning:数据库建立失败的问题</p><p>2.将\Extensions\php\php5.4.45nts\php.ini文件中的<code>extension=php_mysqli.dll</code>注释掉</p><p>尝试：未成功</p><h3 id="简单的粗暴的解决方法"><a href="#简单的粗暴的解决方法" class="headerlink" title="简单的粗暴的解决方法"></a>简单的粗暴的解决方法</h3><p>出现此问题一般是安装php时选择了较高版本，高版本php舍弃了mysql_connect()。卸载重新下载一个低版本php(推荐5.4.45)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题&quot;&gt;&lt;a href=&quot;#关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题&quot; class=&quot;headerlink&quot; title=&quot;关于sqli-labs搭建出</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>1018</title>
     <link href="http://leyi9971.github.io/2020/10/18/1018/"/>
     <id>http://leyi9971.github.io/2020/10/18/1018/</id>
     <published>2020-10-18T11:10:31.000Z</published>
-    <updated>2020-10-19T08:18:33.470Z</updated>
+    <updated>2020-10-19T08:29:57.116Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="C语言基础学习"><a href="#C语言基础学习" class="headerlink" title="C语言基础学习"></a>C语言基础学习</h1><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br></pre></td></tr></table></figure><p><strong>预处理</strong>将头文件stdio.h包含进程序,实现程序包含系统宏定义及程序有资格对stdio.h中的库函数(例:printf)的调用</p><h3 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">int main(void)</span><br></pre></td></tr></table></figure><p><strong>函数头</strong>:int main()<br>int main为<strong>程序主函数</strong><br>int为函数类型;main为函数名;”()”为函数的标识,括号内无内容表示该函数无参数。<br><em>return 0;表示结束main函数,0值返回,把控制权还给操作系统。</em><br><em>main函数有且只可有一个</em></p><h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">...;</span><br><span class="line">...;</span><br><span class="line">...;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>函数体</strong>:大括号下内容(包含局部声明语句及<strong>执行语句</strong>)<br>*每行执行语句需以<strong>分号结尾</strong> *</p><p>例1:简单的变量赋值输出</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a,b,c;</span><br><span class="line">a&#x3D;2;</span><br><span class="line">b&#x3D;3;</span><br><span class="line">c&#x3D;4;</span><br><span class="line">printf(&quot;%d,%d,%d&quot;,a,b,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>运行结果:输出2,3,4</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="C语言基础学习"><a href="#C语言基础学习" class="headerlink" title="C语言基础学习"></a>C语言基础学习</h1><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><p><strong>预处理</strong>将头文件stdio.h包含进程序,实现程序包含系统宏定义及程序有资格对stdio.h中的库函数(例:printf)的调用。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">include&lt;stdio.h&gt;</span><br></pre></td></tr></table></figure><h3 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h3><p><strong>函数头</strong>:int main()</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">int main(void)</span><br></pre></td></tr></table></figure><p>int main为程序主函数;int为函数类型;main为函数名;”()”为函数的标识,括号内无内容表示该函数无参数。</p><p><em>注:”return 0;”表示结束main函数,0值返回,把控制权还给操作系统。</em><br><em>注:main函数有且只可有一个。</em></p><h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><p><strong>函数体</strong>:大括号下内容(包含局部声明语句及<strong>执行语句</strong>)。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">...;</span><br><span class="line">...;</span><br><span class="line">...;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><em>注:每行执行语句需以<strong>分号结尾</strong>。</em></p><p>例1:简单的变量赋值输出</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a,b,c;</span><br><span class="line">a&#x3D;2;</span><br><span class="line">b&#x3D;3;</span><br><span class="line">c&#x3D;4;</span><br><span class="line">printf(&quot;%d,%d,%d&quot;,a,b,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>运行结果:输出2,3,4</p>]]></content>
     
     
       

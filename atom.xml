@@ -6,7 +6,7 @@
   <link href="http://leyi9971.github.io/atom.xml" rel="self"/>
   
   <link href="http://leyi9971.github.io/"/>
-  <updated>2020-11-09T13:56:51.423Z</updated>
+  <updated>2020-11-09T13:59:28.518Z</updated>
   <id>http://leyi9971.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://leyi9971.github.io/2020/11/09/sqli-labs/"/>
     <id>http://leyi9971.github.io/2020/11/09/sqli-labs/</id>
     <published>2020-11-09T13:26:59.000Z</published>
-    <updated>2020-11-09T13:56:51.423Z</updated>
+    <updated>2020-11-09T13:59:28.518Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题"><a href="#关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题" class="headerlink" title="关于sqli-labs搭建出现mysql_connect()函数未定义报错的问题"></a>关于sqli-labs搭建出现mysql_connect()函数未定义报错的问题</h1><p>进行Setup/reset database for labs操作时出现报错</p><p>报错代码:</p><p><code> Fatal error: Uncaught Error: Call to undefined function mysql_connect() in E:\phpstudy_pro\WWW\sqli-labs-master\sql-connections\setup-db.php:29 Stack trace: #0 &#123;main&#125; thrown in E:\phpstudy_pro\WWW\sqli-labs-master\sql-connections\setup-db.php on line 29</code></p><h3 id="网上查到的一些解决方法"><a href="#网上查到的一些解决方法" class="headerlink" title="网上查到的一些解决方法"></a>网上查到的一些解决方法</h3><p>1.将\sql-connections\setup-db.php文件中的<code>mysql</code>修改为<code>mysqli</code></p><p>尝试：全局修改后出现earning:数据库建立失败的问题</p><p>2.将\Extensions\php\php5.4.45nts\php.ini文件中的<code>extension=php_mysqli.dll</code>注释掉</p><p>尝试：未成功</p><h3 id="简单的粗暴的解决方法"><a href="#简单的粗暴的解决方法" class="headerlink" title="简单的粗暴的解决方法"></a>简单的粗暴的解决方法</h3><p>出现此问题一般是安装php时选择了较高版本，高版本php舍弃了mysql_connect()。卸载重新下载一个低版本php(推荐5.4.45)</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题"><a href="#关于sqli-labs搭建出现mysql-connect-函数未定义报错的问题" class="headerlink" title="关于sqli-labs搭建出现mysql_connect()函数未定义报错的问题"></a>关于sqli-labs搭建出现mysql_connect()函数未定义报错的问题</h1><p>进行Setup/reset database for labs操作时出现报错</p><p>报错代码:</p><p><code> Fatal error: Uncaught Error: Call to undefined function mysql_connect() in E:\phpstudy_pro\WWW\sqli-labs-master\sql-connections\setup-db.php:29 Stack trace: #0 &#123;main&#125; thrown in E:\phpstudy_pro\WWW\sqli-labs-master\sql-connections\setup-db.php on line 29</code></p><h3 id="网上查到的一些解决方法"><a href="#网上查到的一些解决方法" class="headerlink" title="网上查到的一些解决方法"></a>网上查到的一些解决方法</h3><p>1.将\sql-connections\setup-db.php文件中的<code>mysql</code>修改为<code>mysqli</code></p><p>尝试：全局修改后出现earning:数据库建立失败的问题</p><p>2.将\Extensions\php\php5.4.45nts\php.ini文件中的<code>extension=php_mysqli.dll</code>注释掉</p><p>尝试：未成功</p><h3 id="简单的粗暴的解决方法"><a href="#简单的粗暴的解决方法" class="headerlink" title="简单的粗暴的解决方法"></a>简单的粗暴的解决方法</h3><p>出现此问题一般是安装php时选择了较高版本，高版本php舍弃了mysql_connect()。</p><p>卸载重装一个低版本php即可解决(推荐5.4.45)</p>]]></content>
     
     
       
